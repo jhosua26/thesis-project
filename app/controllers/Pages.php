@@ -3,7 +3,10 @@
     public function __construct(){
      
     }
-    
+    public function fixBug()
+    {
+      echo 'this bug is already fixed';
+    }
     public function index(){
       if(isLoggedIn()){
         redirect('posts');
